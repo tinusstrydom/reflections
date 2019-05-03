@@ -9,20 +9,34 @@ Can change any directory into repository.
 How is the staging area different from the working directory
 and the repository?
 
-Only sets the stage for the files that you want to commit
+Only sets the stage for the files that you want to commit, the
+change between the working directory and the repository
 
 What value do you think it offers?
+Can check before commiting to the repository
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit
+per logical change?
+Can run the git status to check what was changed and can
+commit from there what you think should be part of the
+commit, can reset change you don't want to commit
 
 What are some situations when branches would be helpful in
 keeping your history organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+When experimenting and checking out new ideas.
 
-What is the result of merging two branches together? Why do we
-represent it in the diagram the way we do?
+How do the diagrams help you visualize the branch
+structure?
+They made it clear to see the commits and the parent of the
+commit, and help with the understanding of reachability of
+the commits
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+You have one branch and a commit that you can reach both
+previous branch commits, To better understand and mak you
+aware of the flow of the branches
 
 What are the pros and cons of Git's automatic merging vs.
 always doing merges manually?
