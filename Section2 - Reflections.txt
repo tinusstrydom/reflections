@@ -40,3 +40,9 @@ aware of the flow of the branches
 
 What are the pros and cons of Git's automatic merging vs.
 always doing merges manually?
+
+Pro's of manually merge where there is conflict, is that
+git gives you the chance to decide what to keep and change
+
+
+
